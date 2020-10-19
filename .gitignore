@@ -1,0 +1,11 @@
+*~
+*.nav
+*.aux
+*.log
+*.out
+*.snm
+*.toc
+*.ilg
+*.ind
+*.vrb
+videos/

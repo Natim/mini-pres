@@ -1,0 +1,22 @@
+\ProvidesPackage{natim-beamer}
+\usepackage[english,francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{graphics}
+\usepackage{hyperref}
+
+% Insert image
+\newcommand{\image}[3]{
+	\begin{figure}
+	\centerline{\includegraphics[scale=#3]{images/#1}}
+	\label{#2}
+	\end{figure}
+}
+
+
+% Insert image
+\newcommand{\limage}[2]{
+	\centerline{\includegraphics[scale=#2]{images/#1}}
+}
+
+
